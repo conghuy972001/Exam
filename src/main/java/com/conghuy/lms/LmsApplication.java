@@ -26,7 +26,7 @@ public class LmsApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		System.out.println("Starting code");
 
-		User user = new User();
+/*		User user = new User();
 		user.setFullName("Nguyen Cong Huy");
 		user.setUsername("conghuy972001");
 		user.setPassword("conghuy7a3");
@@ -44,7 +44,7 @@ public class LmsApplication implements CommandLineRunner {
 		userRoleSet.add(userRole);
 
 		User user1 = this.userService.createUser(user, userRoleSet);
-		System.out.println(user1.getUsername());
+		System.out.println(user1.getUsername());*/
 
 	}
 }
